@@ -1,8 +1,10 @@
-package com.groupreddents.appreddents;
+package com.groupreddents.appreddents.controller;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.groupreddents.appreddents.R;
 
 public class MainActivity extends AppCompatActivity {
 
