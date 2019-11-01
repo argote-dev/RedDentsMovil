@@ -1,5 +1,7 @@
 package com.groupreddents.appreddents.model;
 
+import androidx.annotation.NonNull;
+
 public class example {
 
     private int id;
@@ -28,4 +30,11 @@ public class example {
     public void setName(String name) {
         this.name = name;
     }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
 }
